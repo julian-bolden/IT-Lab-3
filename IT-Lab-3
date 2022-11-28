@@ -1,0 +1,32 @@
+$ mkdir myProject
+$ cd myProject
+$ git config --global user.name "Julian Bolden"
+$ git config --global user.email "s2210769038@fhooe.at"
+$ git config --list
+$ git init
+$ touch hello.txt
+$ git status
+$ git add hello.txt
+$ git rm --cached hello.txt
+git log
+$ git branch
+$ git checkout -b gh-pages
+$ git checkout -b ft-user-login-162561717
+git branch
+$ git checkout gh-pages
+$ git push origin gh-pages
+$ git checkout ft-user-login-162561717
+$ touch login.html
+$ git status
+$ git add login.html
+$ git commit -m '[starts #162561717] adds the login file'
+$  git push origin ft-user-login-162561717
+$ git status
+$ git add login.html
+$ git commit -m '[finishes #162561717] adds the login form'
+$ git push origin ft-user-login-162561717
+$ git pull origin gh-pages
+$ git rm --cached subtask1.py.rtf
+$ git rm --cached subtask2.py.rtf
+'# it looks like I learned how to use git today'
+git commit
